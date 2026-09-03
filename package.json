@@ -16,6 +16,7 @@
     "start": "vite",
     "fis3-dev": "fis3 release -cwd ./public",
     "deploy-gh-page": "sh ./deploy-gh-pages.sh",
+    "npm-init": "npm config set registry http://mirrors.cloud.tencent.com/npm/ && npm config set strict-ssl false && npm i --legacy-peer-deps",
     "build": "npm run build --workspaces",
     "build-esm": "npm run build-esm --workspaces",
     "test": "npm test --workspaces",
